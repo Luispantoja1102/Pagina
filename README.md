@@ -33,9 +33,9 @@ El sensor  **[US-016]** es similar al HC-SR04 pero con salida de tipo analógico
 | Dimensiones                                       | 45*20*15 mm             |
 | Tiempo mínimo de espera entre una medida y el inicio de otra | 20ms (recomendable 50ms) |
 
-| CONEXIÓN                       |              |
-|--------------------------------|--------------|
-| VCC (+5V DC)                   |              |
-| TRIG (Disparo del ultrasonido) |              |
-| ECHO (Recepción del ultrasonido)|              |
-| GND (Tierra: 0V)               |              |
+| CONEXIÓN                       |
+|--------------------------------|
+| VCC (+5V DC)                   |
+| TRIG (Disparo del ultrasonido) |
+| ECHO (Recepción del ultrasonido)|
+| GND (Tierra: 0V)               |
