@@ -1,7 +1,1 @@
-## Depto de Sistemas y Computación
-## Ing. En Sistemas Computacionales
-## SISTEMAS PROGRAMABLES 23a
-## Autor (es): ___________
-## Repositorio:  
-## Fecha de revisión:   99/99/2023
-## Objetivo:
+## Depto de Sistemas y Computación <br> Depto de Sistemas y Computación <br> Ing. En Sistemas Computacionales <br> SISTEMAS PROGRAMABLES 23a <br> Autor : Pantoja Parra Luis Enrique <br> Repositorio: Pagina<br> Fecha de revisión:   13/09/2023 <br> 
