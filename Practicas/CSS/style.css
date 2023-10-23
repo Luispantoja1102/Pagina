@@ -4,17 +4,20 @@
     --primario: #0097A7;
     --secundario: #FFC107;
     --gris: #757575;
+    --grisClaro:#bbbbbb
 }
 html{
     font-size: 62.5%;
     box-sizing: border-box;
 }
 body{
+    min-height: 100vh;
     font-size: 1.6rem;
     text-align: center;
     font-family: 'Krub', sans-serif; /*Tipografia para todo el cuerpo*/
+    background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 70%);
 }
-
+/*Tipografia*/
 h1{
     font-size: 5rem;
 }
@@ -25,6 +28,15 @@ footer{
     font-weight: 700;
     padding-top: 4rem;
 }
+/*Contenido*/
+.sombra{
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,1);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,1);
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,1);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+}
 .content_img{
     display: flex;
     justify-content: space-between;
@@ -32,6 +44,7 @@ footer{
 
 .img__portada{
     width: 30rem;
+    height: auto;
     margin: 0 auto;
     padding-top: 3rem;
 }
