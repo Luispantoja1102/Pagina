@@ -1,0 +1,57 @@
+:root{
+    --blanco: #fff;
+    --oscuro: #000;
+    --primario: #0097A7;
+    --secundario: #FFC107;
+    --gris: #757575;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: 'Krub', sans-serif; /*Tipografia para todo el cuerpo*/
+}
+
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 4rem;
+}
+.content_img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img__portada{
+    width: 30rem;
+    height: auto;
+    margin: 0 auto;
+}
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
+}
+.nav-bg{
+    background-color: var(--primario);
+}
+.navegacion-principal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-principal a{
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.navegacion-principal a:hover{
+    background-color: var(--secundario);
+    color: var(--oscuro);
+    
+}
