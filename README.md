@@ -3,4 +3,12 @@
 
 [Practica Practica Hola Mundo](Practicas/practica2-1.html)
 
-[Practica Desplegar ANIMACIÓN](Practicas/practica2-1.html)
+[Practica Desplegar ANIMACIÓN](Practicas/practica2-2.html)
+
+[Practica Practica Hola Mundo](Practicas/practica2-3.html)
+
+[Practica Desplegar ANIMACIÓN](Practicas/practica2-4.html)
+
+[Practica Practica Hola Mundo](Practicas/practica2-5.html)
+
+[Practica Practica Hola Mundo](Practicas/practica2-6.html)
