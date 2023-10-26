@@ -24,28 +24,28 @@
         <div class="contenedor-codigo">
             <pre>
                 <code>
-                    import utime
-                    from ssd1306 import SSD1306_I2C
-                    import ssd1306
-                    from machine import Pin, I2C  # for LED
+import utime
+from ssd1306 import SSD1306_I2C
+import ssd1306
+from machine import Pin, I2C  # for LED
 
-                    # Configura los pines SDA y SCL para la comunicación I2C
-                    i2c = I2C(0, sda=machine.Pin(0), scl=machine.Pin(1))
-                    #Configura el objeto SSD1306 para la pantalla OLED
+# Configura los pines SDA y SCL para la comunicación I2C
+i2c = I2C(0, sda=machine.Pin(0), scl=machine.Pin(1))
+#Configura el objeto SSD1306 para la pantalla OLED
 
-                    oled = SSD1306_I2C(128, 64, i2c)
+oled = SSD1306_I2C(128, 64, i2c)
 
-                    led = Pin("LED", Pin.OUT)
-                    led.on()
+led = Pin("LED", Pin.OUT)
+led.on()
 
-                    # Limpia la pantalla
-                    oled.fill(0)
-                    oled.show()
+# Limpia la pantalla
+oled.fill(0)
+oled.show()
 
-                    # Presentacion en pantalla en la pantalla
-                    oled.text("20211821 PPLE", 0, 0)
-                    oled.text("Hola Mundo", 0, 16)
-                    oled.show() 
+# Presentacion en pantalla en la pantalla
+oled.text("20211821 PPLE", 0, 0)
+oled.text("Hola Mundo", 0, 16)
+oled.show() 
                 </code>
             </pre>
         </div>

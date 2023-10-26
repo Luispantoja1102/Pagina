@@ -109,6 +109,7 @@ footer{
 }
 
 .contenedor-codigo {
+    display: inline-block;
     background-color: #f1f1f1; /* Color de fondo */
     padding: 20px; /* Espaciado interno */
     border: 0.1rem solid #ccc; /* Borde con color */
