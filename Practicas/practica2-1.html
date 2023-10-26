@@ -11,7 +11,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Practica 2.1</h1>
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <p class="ParrafoSuperior">Practica 2.1 Practica Hola Mundo y la Hora de Internet </p>
+            
+        </nav>
+    </div>
+    <main class="contenedor sombra">
+        <h2>Hola Mundo</h2>
+        <img class="img__practicas" src = "img/U2/holamundo.jpg">
+        <h3>Codigo</h3>
+        <div class="contenedor-codigo">
+            <pre>
+                <code>
+                    import utime
+                    from ssd1306 import SSD1306_I2C
+                    import ssd1306
+                    from machine import Pin, I2C  # for LED
+
+                    # Configura los pines SDA y SCL para la comunicación I2C
+                    i2c = I2C(0, sda=machine.Pin(0), scl=machine.Pin(1))
+                    #Configura el objeto SSD1306 para la pantalla OLED
+
+                    oled = SSD1306_I2C(128, 64, i2c)
+
+                    led = Pin("LED", Pin.OUT)
+                    led.on()
+
+                    # Limpia la pantalla
+                    oled.fill(0)
+                    oled.show()
+
+                    # Presentacion en pantalla en la pantalla
+                    oled.text("20211821 PPLE", 0, 0)
+                    oled.text("Hola Mundo", 0, 16)
+                    oled.show() 
+                </code>
+            </pre>
+        </div>
+    </main>
     
 </body>
 </html>

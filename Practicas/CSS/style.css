@@ -18,12 +18,16 @@ body{
     background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 70%);
 }
 /*Tipografia*/
+p{
+    font-size: 1.6rem;
+}
 h1{
     font-size: 2rem;
 }
 h2{
     font-size: 2rem;
 }
+
 @media (min-width: 768px){
     h1{
         font-size: 5rem;
@@ -63,6 +67,10 @@ footer{
     margin: 0 auto;
     padding-top: 3rem;
 }
+
+.img__practicas{
+    max-width: 90%;
+}
 .contenedor{
     max-width: 120rem;
     margin: 0 auto;
@@ -91,4 +99,23 @@ footer{
 .navegacion-principal a:hover{
     background-color: var(--secundario);
     color: var(--oscuro); 
+}
+.ParrafoSuperior{
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem auto;
+}
+
+.contenedor-codigo {
+    background-color: #f1f1f1; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    border: 0.1rem solid #ccc; /* Borde con color */
+    border-radius: 0.5rem; /* Esquinas redondeadas */
+    font-family: 'Courier New', monospace; /* Fuente de monoespacio para el código */
+    overflow: auto; /* Barra de desplazamiento si el código es largo */
+    text-align: start; /*Alinea el texto a la izquierda*/
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
+    max-width: 85%; /* Ancho máximo del 90% del contenedor padre */
 }
