@@ -32,7 +32,7 @@ import ssd1306
 from machine import Pin, I2C  # for LED
 
 # Configura los pines SDA y SCL para la comunicación I2C
-i2c = I2C(0, sda=machine.Pin(0), scl=machine.Pin(1))
+i2c = I2C(0, sda=machine.Pin(8), scl=machine.Pin(9))
 #Configura el objeto SSD1306 para la pantalla OLED
 
 oled = SSD1306_I2C(128, 64, i2c)
