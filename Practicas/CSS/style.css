@@ -117,5 +117,5 @@ footer{
     overflow: auto; /* Barra de desplazamiento si el código es largo */
     text-align: start; /*Alinea el texto a la izquierda*/
     margin: 0 auto; /* Centra horizontalmente el contenedor */
-    max-width: 85%; /* Ancho máximo del 90% del contenedor padre */
+    max-width: 85%;
 }
