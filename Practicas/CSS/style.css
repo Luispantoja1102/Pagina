@@ -111,7 +111,7 @@ footer{
 .contenedor-codigo {
     display: inline-block;
     background-color: #f1f1f1; /* Color de fondo */
-    padding: 20px; /* Espaciado interno */
+    padding: 2rem; /* Espaciado interno */
     border: 0.1rem solid #ccc; /* Borde con color */
     border-radius: 0.5rem; /* Esquinas redondeadas */
     font-family: 'Courier New', monospace; /* Fuente de monoespacio para el código */
